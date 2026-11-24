@@ -1,0 +1,3158 @@
+{
+  "schema": "smtlib-2025-supplement-v1",
+  "baseline_doi": "10.5281/zenodo.24416131",
+  "official_input_doi": "10.5281/zenodo.16740866",
+  "baseline_certificates_csv_sha256": "236c1a1787eef7282ff128ca87e33566e60c92e83f0d32c63f61b9d8807ca632",
+  "archives": {
+    "smtlib2025_additional_11_sat_models.tar.gz": {
+      "sha256": "628cb206dc55a547c1dec2ec1ae78d67a3176a0176bc97696ed62e2325b7dfef",
+      "size": 7632739,
+      "cases": 11,
+      "members": 22
+    },
+    "smtlib2025_additional_118_trajectory_proofs.tar.gz": {
+      "sha256": "0847fef93adc6ff3cce0750925ce3a5ad180b017bbc8899267d6d6bb5c1337c8",
+      "size": 1869354,
+      "cases": 118,
+      "members": 236
+    },
+    "smtlib2025_additional_29_structural_proofs.tar.gz": {
+      "sha256": "eab2908d56cd96f34ddde8c5f69ea73c0f8155d776cd71be07836847e47fe6cd",
+      "size": 126696993,
+      "cases": 29,
+      "members": 90
+    }
+  },
+  "certificates": [
+    {
+      "case_id": "case_006",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_0_0_21_to_10_8_3_negated_goal_bmc_35.smt2",
+      "original_sha256": "e973a3f34e6a991f0d378f5df3e6953313d31d35c95c1492e83fa4774d166a20",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "065c61fd4c2543fa58602d343616f50eb1871609782484dbbc48f401cc0bab45",
+          "size": 17779
+        },
+        "closed_states.jsonl": {
+          "sha256": "56a1d0c09998b83683f26bceb1c798999e095b107d1aa3ac59bf7d70eacc0cb9",
+          "size": 2182891
+        }
+      }
+    },
+    {
+      "case_id": "case_007",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_0_0_21_to_10_8_3_negated_goal_bmc_40.smt2",
+      "original_sha256": "d018731487250cbcb5f5b25d449d878446a55a0cc1cc96845a7ba8140100a391",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "3a77942fe2794ee49eccf0ed76925ba1ae639101498db919eb2c89cb4146b73f",
+          "size": 22432
+        },
+        "closed_states.jsonl": {
+          "sha256": "2fbad61d07b881b85ab239889e2600e627d1044a19b9943959e0667b130fc3c0",
+          "size": 268
+        }
+      }
+    },
+    {
+      "case_id": "case_008",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_0_0_21_to_10_8_3_negated_goal_bmc_41.smt2",
+      "original_sha256": "40dfa1678f1d9d9dbdce84845a4681e25d30c155906371df7d52aead2fa1dfc9",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "f1e928dba2d3d493d28df5f59638fb343e0afbad36448a5b9b81efc3401370b9",
+          "size": 22955
+        },
+        "closed_states.jsonl": {
+          "sha256": "0390c72ec7f01a8acc092057bc80117a7719af412c6c3231d0d7d6dbcb5b75fc",
+          "size": 4306
+        }
+      }
+    },
+    {
+      "case_id": "case_009",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_0_13_3_to_14_2_0_negated_goal_bmc_24.smt2",
+      "original_sha256": "9c8c2451dbdd7fe7e929c171850ceffcb2419942fa31756924f07b04ee531d97",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "df35fcbfd54a22bdab21221acec37b05573d6dfda39d10813fa6237e1cd25bc3",
+          "size": 12123
+        },
+        "closed_states.jsonl": {
+          "sha256": "36c8f68cb9e4485cd00f9bee4f9125c550196e5eece59cfaebc1c0d41962967c",
+          "size": 36710
+        }
+      }
+    },
+    {
+      "case_id": "case_010",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_0_16_9_to_6_17_2_negated_goal_bmc_40.smt2",
+      "original_sha256": "2faa7c4aaddc963617848f08e0f52a7bc03e6d2de4919c4285183b3c21af6bf4",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "3483121573a9f72952fc50c40250847cdeb89311f24524c1150c86f4899df61b",
+          "size": 24305
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_011",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_0_18_1_to_17_2_0_negated_goal_bmc_27.smt2",
+      "original_sha256": "876e2e76312a00f7c36a92657e0fa91402af8c2552f3dafe91f1da57eeb2de6a",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "a50b135e6c1fd5f77af190153cd07a45f8e0abce022727df2ad8725fa635ccd7",
+          "size": 13689
+        },
+        "closed_states.jsonl": {
+          "sha256": "fc5fa7bdd04f1f998734dc4b89585ff184adb7581e2ca18c20440a5cc6bd2e4e",
+          "size": 17423
+        }
+      }
+    },
+    {
+      "case_id": "case_012",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_0_18_1_to_17_2_0_negated_goal_bmc_32.smt2",
+      "original_sha256": "d17bed6d1c01e83a42bd3ba414124fcb9e5690bd6f26d86186ffdf53d83d0cf1",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "6acab3f1ded7f5ff6da1aa51d73fb370b750a019b089dfaeb2192db825860b99",
+          "size": 16194
+        },
+        "closed_states.jsonl": {
+          "sha256": "accacf57161c6fc07cfc1f12b82faac8d24321b43032465523b44b044446d6c4",
+          "size": 2091886
+        }
+      }
+    },
+    {
+      "case_id": "case_013",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_0_18_5_to_17_0_6_negated_goal_bmc_45.smt2",
+      "original_sha256": "40bf27548116b8ee345eba45494db01246342c81424160030f3eae50956c1432",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "bd4c2c89b37af11da2e0ad4d19b81c08d8700806337dba88db4522f0168920e8",
+          "size": 26242
+        },
+        "closed_states.jsonl": {
+          "sha256": "6c56e04397fe372fd661de003a24ad956eb310857511b72844336c4eb7a5f0c2",
+          "size": 2667
+        }
+      }
+    },
+    {
+      "case_id": "case_017",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_0_24_0_to_2_11_11_negated_goal_bmc_40.smt2",
+      "original_sha256": "2b4f9fbf35a11642455132e2c246368d734aa8137705e4a9a4699f10385c8b81",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "9615278d6c6bbec5ad2e125d8e7bf2cfca9f85a98d1d21aa26393b3949d1634d",
+          "size": 20451
+        },
+        "closed_states.jsonl": {
+          "sha256": "244357e919ffa2d7eb3c491ff36a81a20ecf2579a785079ca42031037c217554",
+          "size": 98663
+        }
+      }
+    },
+    {
+      "case_id": "case_018",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_0_4_7_to_4_4_3_negated_goal_bmc_19.smt2",
+      "original_sha256": "cd455b6ff46a426d3b1d73ee17b7e3ef30ac39e4d6c765e84614c9b169e5e1e6",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "3a5829a089053ec2a81de4ecb9b4799d9dae6c9ac76b186743989ddc987a5c36",
+          "size": 9596
+        },
+        "closed_states.jsonl": {
+          "sha256": "0b7b41049f739458a22735ca247f3e0ffa7e5f7ce92c3c17f1229d0e6505945f",
+          "size": 271166
+        }
+      }
+    },
+    {
+      "case_id": "case_019",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_0_9_4_to_3_3_7_negated_goal_bmc_19.smt2",
+      "original_sha256": "d9456240de053139d91c15a1161de52f511727fdfd47116847b827708a24a66a",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "35c4e028320d19fdbedbc17c46eaa67c9a61f23e99377fc9d9ee3cfbf761042f",
+          "size": 9654
+        },
+        "closed_states.jsonl": {
+          "sha256": "45654d417825ad82e9f7e313e5e2532d08f1d0c5fbc1522d6fbe424f32fb37c5",
+          "size": 22155
+        }
+      }
+    },
+    {
+      "case_id": "case_021",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_10_5_8_to_4_10_9_negated_goal_bmc_27.smt2",
+      "original_sha256": "baaa0f0d9ac3eb6bb403d753b7ac845ca9ca9287f737c79829e88b8c9428f3d1",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "54fd4a1fd2d9465d6621ff091e9df7c1f335b36a5a4dc4c7af87a83b2838ba3d",
+          "size": 13813
+        },
+        "closed_states.jsonl": {
+          "sha256": "f4458bac96b744a2907234737ab0e7ad516ac4164b55ae8d7f1da663b679e3d3",
+          "size": 72
+        }
+      }
+    },
+    {
+      "case_id": "case_022",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_10_5_8_to_4_10_9_negated_goal_bmc_40.smt2",
+      "original_sha256": "2838353f0a3228e25e4bbc6a97b17f6aea104efc359a9482f89f84e307afe1f0",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "3f99a070b8f6d999418bf756cc0e66e46cec3996f8040d292dfd326d608fc041",
+          "size": 23615
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_024",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_10_7_1_to_8_0_10_negated_goal_bmc_35.smt2",
+      "original_sha256": "bbe4e9e0cfbc48444ad486f57954628ef60c5967e6b310ad9e4f00dbed514f43",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "b2ddf9b4e16d531fbc39975090abdce5672463c0b09a21a24cfebf99e9704ba3",
+          "size": 20119
+        },
+        "closed_states.jsonl": {
+          "sha256": "8e94d49bfa9f5b6160f6c90465208b0b9d19cb8264e5164a87b00e3f82a0cdc7",
+          "size": 19479
+        }
+      }
+    },
+    {
+      "case_id": "case_030",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_11_6_0_to_8_0_9_negated_goal_bmc_23.smt2",
+      "original_sha256": "87d9aeb0ed3d32283c3fa4f9b79fda1ce357b5f56bb844cf842d620309babfef",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "ff185d6ac2b10bb7bb402de0ebbe73d0d00b68d982646b7cf28eb1d530bd3764",
+          "size": 11663
+        },
+        "closed_states.jsonl": {
+          "sha256": "9653d1110778a56d0520dd37cd91f02299ddcab7ee958ba958d5515dbdbabc03",
+          "size": 3897
+        }
+      }
+    },
+    {
+      "case_id": "case_031",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_11_6_0_to_8_0_9_negated_goal_bmc_26.smt2",
+      "original_sha256": "9aae663482a1873cd77d55ae4c0255cfa264ce6fab839b91b9a880471aa3e17d",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "0f20a46c16d67c0a3cf0720876d5466f224707293734f0581a89dc2ded65f4c5",
+          "size": 13136
+        },
+        "closed_states.jsonl": {
+          "sha256": "1cad96f62947c9e2b7d59b909c89bbc4f8463898934da1e1f7f3d04bb4de8adf",
+          "size": 327593
+        }
+      }
+    },
+    {
+      "case_id": "case_032",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_11_6_0_to_8_0_9_negated_goal_bmc_29.smt2",
+      "original_sha256": "61b2073009e47aa51ee92f31a4a8135673e7952fe54dcf7c9a320d8bc23e516d",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "990f58a318abf0978ce27aebfcf4cc97d38eedd3e3d2c911c2f1f2f8d47164f8",
+          "size": 17008
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_033",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_11_6_0_to_8_0_9_negated_goal_bmc_32.smt2",
+      "original_sha256": "077912809fb4ade983633cfbc89a6ce03be14d0095dcc8a733d1bcbc78f73ae8",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "5fc9743c64f5253f6baee63d1e0a7613ee95928aea41d6becbebc43b9b3825c0",
+          "size": 18517
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_034",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_12_0_3_to_8_3_4_negated_goal_bmc_21.smt2",
+      "original_sha256": "ff687fbbbc4ec73d234b47f0619900231f92c67fe5fea81d20b30bf3b16d19e5",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "c9bef655128d36878815f3955171ad878e3c1ed4e0e6fc0656779544dfa2dcfe",
+          "size": 10640
+        },
+        "closed_states.jsonl": {
+          "sha256": "a728c1ec125b7dd184600bce3158b5a4ebf2fbd0e285e2299c9513c8a1e4a89a",
+          "size": 6156
+        }
+      }
+    },
+    {
+      "case_id": "case_035",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_12_0_3_to_8_3_4_negated_goal_bmc_27.smt2",
+      "original_sha256": "5b87e88ddd18d6dc058a4face69981f555c950453fd034f4bcda0c1ceee61da1",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "f8a922d0363d64c7167d56f79bc42c87ca24dd1b9757c1415fd80a3783596e37",
+          "size": 15874
+        },
+        "closed_states.jsonl": {
+          "sha256": "7446ad9d610d36977cd5ae1156987740b39f9cd3ff62fb28022b2ce9c9ce952b",
+          "size": 1781
+        }
+      }
+    },
+    {
+      "case_id": "case_036",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_12_0_3_to_8_3_4_negated_goal_bmc_29.smt2",
+      "original_sha256": "4071fc3e0fe48ac3338e829cfa6b1151ceedab1414899e69efdc652196671c0a",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "cc0ebdcd2929c4c6a6b01b79fe7004bf1463958e8f05c8f4941242ec9b13c658",
+          "size": 16870
+        },
+        "closed_states.jsonl": {
+          "sha256": "223149c916918aa4a31c8e4ae17506266b5f2ab7367536f8ac6dbeaba558c15a",
+          "size": 26490
+        }
+      }
+    },
+    {
+      "case_id": "case_037",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_12_1_3_to_11_1_4_negated_goal_bmc_26.smt2",
+      "original_sha256": "fd4efc8b15010cd2c723a1dd9fc5bd9a34948b138cb9cc0d52da84dafef74363",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "c73a2b828532b8b3ce2a83006d147d7f9c2212657197f7aa56f9e41acbc6abf3",
+          "size": 13115
+        },
+        "closed_states.jsonl": {
+          "sha256": "1ec35d0b0e7de19d485aac052c5b3d8adcf1b7d023d501d6e87d5c243f4ee028",
+          "size": 18704
+        }
+      }
+    },
+    {
+      "case_id": "case_038",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_12_7_0_to_11_3_5_negated_goal_bmc_29.smt2",
+      "original_sha256": "6448d7afaab4be2ae6598e5b13dfa7f36d2f83151565ecbc7dc182783a88e8e4",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "891f7062c488a4fcecf0486c893bf21a24d685df2105afc032cfa96d7da3c2fc",
+          "size": 14689
+        },
+        "closed_states.jsonl": {
+          "sha256": "97f603aa9a963476e631254359c8fb41c22bcb2306f0efb519080ebd4e6025b2",
+          "size": 334481
+        }
+      }
+    },
+    {
+      "case_id": "case_041",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_12_7_0_to_14_5_0_negated_goal_bmc_33.smt2",
+      "original_sha256": "143a50fc889f4045fb33b048d88994f295992e4e2247a36ffc747f4783d2c60e",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "3b74a8d501d1c82354d1f80149b8fef93fbb7624774f291c5e0ff221a2e0dd07",
+          "size": 16701
+        },
+        "closed_states.jsonl": {
+          "sha256": "5efdf98997e977368117e28044fdfd7ec50fcbfe8184e213e15d81abebb0ee4e",
+          "size": 1387530
+        }
+      }
+    },
+    {
+      "case_id": "case_042",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_12_7_0_to_14_5_0_negated_goal_bmc_36.smt2",
+      "original_sha256": "537b41571301c2adf56919f933a185ad52258681f43d84a67fbf42a01fe5a844",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "6c618f9f9f8849d80c4749f82dc26790277e91a7df367191ecf53f6b24eb5be6",
+          "size": 21251
+        },
+        "closed_states.jsonl": {
+          "sha256": "7e251a4546ad1052794302712c5d347afd4114b77ef6f74d45b40b2df1ca9dbc",
+          "size": 1262
+        }
+      }
+    },
+    {
+      "case_id": "case_044",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_13_0_1_to_11_0_3_negated_goal_bmc_24.smt2",
+      "original_sha256": "d660e81c59aa21eb835ef0fd384cfa2dac540dddaf102b7c1638a538f0dec1d2",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "af533c39e1545bf429e0400b750e7fd839672abae3ad822cb8f79517188b3fdd",
+          "size": 12065
+        },
+        "closed_states.jsonl": {
+          "sha256": "11e3c6b95b0e3fafb7929f3f31e56db6dba9eaabe185684d97ba76f51acfb095",
+          "size": 679
+        }
+      }
+    },
+    {
+      "case_id": "case_046",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_13_11_1_to_17_3_5_negated_goal_bmc_49.smt2",
+      "original_sha256": "23201ec71d3aa5b9db5c8c80f0b7441c5e2664d7cc50046482ee7a037fdd30a5",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "5919a6b70ab77100d5a1e207dd1f96bd860da37a3f09fa7fa463ef2c9f0f0116",
+          "size": 29088
+        },
+        "closed_states.jsonl": {
+          "sha256": "36dc81be1e413cf3a0ccd7c23449a2ed6630eea44d1b2fea21a9e9ec148a3f07",
+          "size": 347032
+        }
+      }
+    },
+    {
+      "case_id": "case_047",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_13_1_5_to_8_4_7_negated_goal_bmc_30.smt2",
+      "original_sha256": "37d3a42d500c4acf81d0c3c129a14bcf1babc2b820e8c44ebfa009273374dba0",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "3baa3b039376b1b8138b21a650ec59694649e3d62e1f5af8131c1253e58b42c6",
+          "size": 15194
+        },
+        "closed_states.jsonl": {
+          "sha256": "b2ef3f6fa0dd283df02a951d75ed4a6cf5dcf8df92784a3bfd6edcd3bec2f98c",
+          "size": 507524
+        }
+      }
+    },
+    {
+      "case_id": "case_048",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_13_1_6_to_8_7_5_negated_goal_bmc_26.smt2",
+      "original_sha256": "3477fe09310ff7af761bd54220e13dd4cce2418a2adffbc83c12dc506690ac71",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "5e05a85346d3886401eabe64eec56a683e8c53bb9375bf2c884b072a3aa95e05",
+          "size": 13231
+        },
+        "closed_states.jsonl": {
+          "sha256": "dad12f435c49bacd04085af2c072377970cc884f22f36deab9ae0bbe58050a56",
+          "size": 379
+        }
+      }
+    },
+    {
+      "case_id": "case_049",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_13_1_6_to_8_7_5_negated_goal_bmc_28.smt2",
+      "original_sha256": "321fef941a656b44efb0e2497344c1d3d0b9c87ee4f8f3c689f6d03674bc2a1c",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "2f0dbb9364a69e6f7b9649021d259306a979f46d3117d524347b35397915b83a",
+          "size": 14223
+        },
+        "closed_states.jsonl": {
+          "sha256": "9fc5cb6a38761d87bffcea00073fe6177ee3ae93842ab39d68f306d41f7347f5",
+          "size": 4047
+        }
+      }
+    },
+    {
+      "case_id": "case_050",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_13_1_6_to_8_7_5_negated_goal_bmc_34.smt2",
+      "original_sha256": "7a51b4f064d1a6acd8b8ec9a85b6e5e10c77880f23455c77b34bfb84ec4d311a",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "d568ddc957450af89b0f9c740d1ce87133dcddd06972e368391d15589e3d62f6",
+          "size": 20306
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_051",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_13_2_4_to_13_3_3_negated_goal_bmc_29.smt2",
+      "original_sha256": "70848268fea627a143334319e4cfedff7f1facd00b843faf3f75af7be44f21d2",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "7707fef8380b1adbe4888253803f9ab3ba6c1a7749f16d283154061370147411",
+          "size": 14693
+        },
+        "closed_states.jsonl": {
+          "sha256": "d6ab8ea9327c01b80a69709fb824b94843d87735bb9db1f093fbcb8c6a81a057",
+          "size": 11400
+        }
+      }
+    },
+    {
+      "case_id": "case_052",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_13_3_3_to_3_11_5_negated_goal_bmc_26.smt2",
+      "original_sha256": "c8c99f10451e22c3df5cfcdeaee5243a94b6f3b60fc1561948d70047fdf57d88",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "d4c5b3538ac8efea6fb4c8cbbab0538947eaa72658dd97fc937966ba21c1cfc2",
+          "size": 13202
+        },
+        "closed_states.jsonl": {
+          "sha256": "f33df9dd1dfce3e131e4cec4328414a0ebadfa9596bb556f3a871e428fea49ef",
+          "size": 18053
+        }
+      }
+    },
+    {
+      "case_id": "case_054",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_14_1_0_to_5_1_9_negated_goal_bmc_24.smt2",
+      "original_sha256": "01d872990a9f2dcc4cae52ecce77d19469ec8072c7227449ddbca67e1e0d44de",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "affdd2199f71120db45e8a3ea0d1d647ec024828d228ef67e8ca1cd2a11f5112",
+          "size": 12098
+        },
+        "closed_states.jsonl": {
+          "sha256": "f13a1a9dfae6eab51d115e1f2f7b98869f7ce240ef87f32edd91bff08df225e6",
+          "size": 69772
+        }
+      }
+    },
+    {
+      "case_id": "case_056",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_15_2_6_to_18_3_2_negated_goal_bmc_33.smt2",
+      "original_sha256": "7a2512bc87c2795f9e7db2e88001e6695920b278b945df07b8325f7fa4d8603d",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "2a78cf4221c143ca3c51e153eb02861ded122684ab10076b7f70c28bdcc73fda",
+          "size": 16825
+        },
+        "closed_states.jsonl": {
+          "sha256": "7fe23a7c054167a71da59db5f3b11749498d345549c0423034fd1d317ba433c8",
+          "size": 1080
+        }
+      }
+    },
+    {
+      "case_id": "case_057",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_15_3_0_to_3_5_10_negated_goal_bmc_35.smt2",
+      "original_sha256": "df4fc8bbd42e7ca826d0c9f5b9dd033c67fb3a53ff1b97207e21be20dfaddb00",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "cf7c014edd56c7c78fe826e16e814dae9a8af82965ca85623990dba820357c38",
+          "size": 20119
+        },
+        "closed_states.jsonl": {
+          "sha256": "1a3ac41a55b5045184f749a46129cbfc86c05a1eed464c105ab6853a37a3e400",
+          "size": 7266
+        }
+      }
+    },
+    {
+      "case_id": "case_059",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_15_6_4_to_10_2_13_negated_goal_bmc_44.smt2",
+      "original_sha256": "8dc7bca92c5fbc53ac13bdbbabb48535f7f8c7427456d333f528230bee57722f",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "cce75663f354b27caf28709d53c8e5938f5fc34e9d6ae9b42743f99a781f97e9",
+          "size": 26413
+        },
+        "closed_states.jsonl": {
+          "sha256": "64b4f1e46b4a80e1497b74127c7ac58020da171269a8fbfb37ffaf608cb453f0",
+          "size": 858
+        }
+      }
+    },
+    {
+      "case_id": "case_060",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_15_6_4_to_10_2_13_negated_goal_bmc_47.smt2",
+      "original_sha256": "837fc43914570a88856ada7042f8ac9e24951f795a7f7dc596e9625955555fbf",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "5bb4c0532351d6b340f4844ae8f7d92a003c3dfac9f88349d2ab56b69d217e99",
+          "size": 28012
+        },
+        "closed_states.jsonl": {
+          "sha256": "47618d34af1f6d606d6edd50fab7c7fa825a5d04bd45b5dd4ccb061fc3c0cb9c",
+          "size": 62868
+        }
+      }
+    },
+    {
+      "case_id": "case_061",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_16_2_0_to_1_1_16_negated_goal_bmc_33.smt2",
+      "original_sha256": "239a8f008ef22923c37d2367e4c6d1f2fe7814b570fad4623255269be2ac3136",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "07e2b0cd10a2bce55e42be238d6359e552e3402050ca0d30dadcb69abd121eb9",
+          "size": 19099
+        },
+        "closed_states.jsonl": {
+          "sha256": "75cf93ba06cb7b311d4a43847bb2c035635057ca88b68ecc1a5e4315cdd25395",
+          "size": 229
+        }
+      }
+    },
+    {
+      "case_id": "case_063",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_16_2_1_to_12_6_1_negated_goal_bmc_31.smt2",
+      "original_sha256": "c7f65d08b7525cc26f68196b6c9ab4ebc10a72f1c46f91cbdf535fe70a541ed5",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "53c9290183edcebceff13e335624b0d64cc68dc957b0a9256a231df9298af7c2",
+          "size": 15697
+        },
+        "closed_states.jsonl": {
+          "sha256": "69f604711f56e893547daf654a7595dd2dfe0bdf661dc1296640f03608ac9d84",
+          "size": 363
+        }
+      }
+    },
+    {
+      "case_id": "case_068",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_17_0_1_to_1_10_7_negated_goal_bmc_23.smt2",
+      "original_sha256": "a7964429f56c1f5735d4c3c264edaac01c1d7ca52a218e3fec62b6546584f470",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "287f37f564f3b5f1936eace9cbaabbbce75e6cacaf73648a8ea9e6a1618cdebd",
+          "size": 11696
+        },
+        "closed_states.jsonl": {
+          "sha256": "5c3ef799003d619c1cd9bc46e94cf4f336a5af82206ad1355eaf3914ba1d5da1",
+          "size": 5788
+        }
+      }
+    },
+    {
+      "case_id": "case_071",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_17_2_1_to_19_1_0_negated_goal_bmc_39.smt2",
+      "original_sha256": "c6e83e2f94a286e82e65e7a8d79641d47dcb25261d2dec9364b676ef42d1f4ce",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "068b55503b9e4427a26ea063c644ca9bdd1a9d456a73f0aa1c4e1d9345348552",
+          "size": 22877
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_074",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_18_1_7_to_7_17_2_negated_goal_bmc_35.smt2",
+      "original_sha256": "e96608fa06cf9f768497b473afd4d505c98fc59870866f0f87d267d1bbd22ede",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "1c8a34f7f18cd253429aec01d7fb982567504b77cdb6c6f200768cc52b1b2139",
+          "size": 17932
+        },
+        "closed_states.jsonl": {
+          "sha256": "58ab58c431ee2d11c13ad73f37cb3efe5f5cf1d9712d62f89bcc2426e2ea006f",
+          "size": 1551
+        }
+      }
+    },
+    {
+      "case_id": "case_075",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_18_1_7_to_7_17_2_negated_goal_bmc_42.smt2",
+      "original_sha256": "b1bb62c927c179e22719f5fb5574021252d2cdf81b6e9ec836d587191d568b09",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "7eda9605cace103ca7efa4cc72b84252927461b6ed4119edca31d3878272b79b",
+          "size": 25428
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_078",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_1_14_5_to_17_3_0_negated_goal_bmc_28.smt2",
+      "original_sha256": "e44a286a119d3c0dc328a247ff49f045abebf2ca6d4e1c9c53de5ec97baf8e10",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "96cff8807353f013280d704668d6c1572ec4dfa06b67e658ab24dc1c45721f05",
+          "size": 14219
+        },
+        "closed_states.jsonl": {
+          "sha256": "008795405ddb6de7d5f5709b219dc091387847ed18145d24312044ae09db3451",
+          "size": 191151
+        }
+      }
+    },
+    {
+      "case_id": "case_080",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_1_21_4_to_17_7_2_negated_goal_bmc_37.smt2",
+      "original_sha256": "caf5054f999d180c865b01575c5ff237ff5160ff629bc56f5b03e8ffcbfc67b1",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "c6ded27b40dfd03033ece1db0825dc8f8588a857997ed74bf3639d6a2ce8bf92",
+          "size": 18960
+        },
+        "closed_states.jsonl": {
+          "sha256": "f206ee034c5a92a541f9053eb4201ef5f0dc25946ac793261a61aeffc425be9e",
+          "size": 41279
+        }
+      }
+    },
+    {
+      "case_id": "case_084",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_1_6_8_to_6_3_6_negated_goal_bmc_19.smt2",
+      "original_sha256": "6540dbd40838e2c26bb28016457dc40e0f33872bfd6cd5bd71595210515b6524",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "06bbe58784537565d3d12b21babedc2768dd771bc8c3323088175898904aaeaa",
+          "size": 9716
+        },
+        "closed_states.jsonl": {
+          "sha256": "f3e14935fd40bc2b54afc93bb520d351d78369460436f66624eeb3d244470f5c",
+          "size": 1344
+        }
+      }
+    },
+    {
+      "case_id": "case_086",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_1_7_5_to_6_4_3_negated_goal_bmc_24.smt2",
+      "original_sha256": "6b18e92d8d1f3dce4ddf6c55d6f4931b4768b70601996474a81da71ddc84626b",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "358c7e615b0007dc1333efa434fbabd7e87b96b217256c898441fd75567d91b7",
+          "size": 12044
+        },
+        "closed_states.jsonl": {
+          "sha256": "efab60224d5898ef72e9a0449979150687ba34df6aa9e0734098517221056ad0",
+          "size": 654967
+        }
+      }
+    },
+    {
+      "case_id": "case_090",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_20_0_1_to_1_2_18_negated_goal_bmc_40.smt2",
+      "original_sha256": "85fd55ac8c65e256689a10ab70d68970070e64666b061353a6e898e90ee3bb9b",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "897c1c58d2d969f2b013814d83b35f85d57e39e930a09d58637bcb0af311acb2",
+          "size": 23469
+        },
+        "closed_states.jsonl": {
+          "sha256": "6ac034bc95a6b7934c6150ffbeb3a201e996cb6402cf3df6c40784cddae7db35",
+          "size": 3185
+        }
+      }
+    },
+    {
+      "case_id": "case_092",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_20_2_0_to_13_2_7_negated_goal_bmc_40.smt2",
+      "original_sha256": "f1ba363b6887028aa8dea4131266b682dcc78e2c46a50bdcecae9cdb9c57ba38",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "79663841a115104c98b21af2c602a4e016f401810d888de79d33a87f310fc670",
+          "size": 23540
+        },
+        "closed_states.jsonl": {
+          "sha256": "ff7685a454e210ec0716bfeb627cffa1cd42230bb0e0f7cb2fc86b7f15b5deae",
+          "size": 209
+        }
+      }
+    },
+    {
+      "case_id": "case_095",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_21_0_4_to_10_10_5_negated_goal_bmc_40.smt2",
+      "original_sha256": "c495035fe61312338e30c774e39aebb4d9a2c13a6624309e2388d9c55d38aa81",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "17fea46ed974ed205fca9816362152d79fbf416d605d1c0179a82a656297504c",
+          "size": 20484
+        },
+        "closed_states.jsonl": {
+          "sha256": "cc29d993cbfe8b666a0dca19481e54cdbfdc9f783fcd822b267ecc679152d0c6",
+          "size": 723406
+        }
+      }
+    },
+    {
+      "case_id": "case_096",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_21_0_4_to_10_10_5_negated_goal_bmc_46.smt2",
+      "original_sha256": "6e69c627fcba225ddf1f94b786b166bc4643065fd66471ca822555b1af75c317",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "25262479fec9dc4adf956152e7c8601a9c9ab51f38d5e206a38e2953ffef38fc",
+          "size": 27473
+        },
+        "closed_states.jsonl": {
+          "sha256": "0a5ef4d6509cf6271fcdeeb554065cf5a61bc6904f409da8886978421cc8750d",
+          "size": 17801
+        }
+      }
+    },
+    {
+      "case_id": "case_098",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_21_1_2_to_14_3_7_negated_goal_bmc_33.smt2",
+      "original_sha256": "f887328e2bf9f22b5ebe74057ca8671ca00df8ebc2627c419b10b6113b64d06b",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "d7217c1d562e3fbf9505e858d1a203610a2b3248d8e323984afdc5c561e00a2e",
+          "size": 16854
+        },
+        "closed_states.jsonl": {
+          "sha256": "2db619206d75ccb00a644028b43887ddef5fe86d4d6102096668503ab3b5cff5",
+          "size": 225
+        }
+      }
+    },
+    {
+      "case_id": "case_099",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_21_1_2_to_14_3_7_negated_goal_bmc_34.smt2",
+      "original_sha256": "004fc47c6d49066fadea870def7a7d85725679c317e95f92533b35bd063cab3d",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "ed6039d10b245f4f9f131318f2ebc0c4bd76645bd70f2a8fcfd9bd051e9ac8e8",
+          "size": 17363
+        },
+        "closed_states.jsonl": {
+          "sha256": "47826fafb24f57924d5ecb8cba67c78bb6dde8cf4bc68ec6e41a80447f5a6e98",
+          "size": 2928
+        }
+      }
+    },
+    {
+      "case_id": "case_100",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_21_4_1_to_0_23_3_negated_goal_bmc_34.smt2",
+      "original_sha256": "9fc7e08837c25125aae9c18dab9b0e76ca5bacd804b4ff56152f2372b29f1908",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "b5a6b0a30366476f8fe1c86b419e859896a660abcfa23a0779f9333e0c8050dd",
+          "size": 17417
+        },
+        "closed_states.jsonl": {
+          "sha256": "e80b160578d558c88deaaafc7bdab131927a0549e96189497a14130bcca3c422",
+          "size": 445653
+        }
+      }
+    },
+    {
+      "case_id": "case_101",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_21_4_1_to_0_23_3_negated_goal_bmc_50.smt2",
+      "original_sha256": "75c9a8662eade3b8e3894a05177dfd414676766620f311c8be7f5bb2ef97b0d5",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "e99e28854e74baa5c25a32d07c00785c4ee41ab5429295c874b3095aef31f655",
+          "size": 29696
+        },
+        "closed_states.jsonl": {
+          "sha256": "999cfbae13ff25f2ddc7e07fba41645b42286c26f31f824180e567e28543d0a3",
+          "size": 688571
+        }
+      }
+    },
+    {
+      "case_id": "case_103",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_22_0_2_to_9_12_3_negated_goal_bmc_43.smt2",
+      "original_sha256": "ed080ac132a4d622bda25951611fccee2ac984fdd8ea41e58a2f418624c3b9be",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "3ed1e8a4dd3b0ff580536eaab537b59e71b12f33c0ca363ce06827a4f2efc3c4",
+          "size": 25257
+        },
+        "closed_states.jsonl": {
+          "sha256": "c8b88497f501cb302ae53211208d6ab4610ad3817fd19ea3f1d0be6c42a4302e",
+          "size": 2637
+        }
+      }
+    },
+    {
+      "case_id": "case_108",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_22_1_2_to_7_15_3_negated_goal_bmc_38.smt2",
+      "original_sha256": "fc3ab621599550ffaf2dbb54f4762072d8969c029d08be16db8801668266fd66",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "60ffb3ad0bbe2b5484dc9d69e87ab4ba783678e96fc0c580ebb630fe43ca0aac",
+          "size": 19448
+        },
+        "closed_states.jsonl": {
+          "sha256": "12fe9e9f82ca62093a10082a4ca9ddf0a4f1931f400c254b719a49cc1c0bc7be",
+          "size": 88711
+        }
+      }
+    },
+    {
+      "case_id": "case_110",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_23_1_0_to_8_9_7_negated_goal_bmc_31.smt2",
+      "original_sha256": "eae6b95a15216dc14e86eb7a0b6e9ea8cf1d3d92d8803d16af582bfd23cf12c1",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "105e628a2e4bb604194f644496bbdb691e6a225fcdb214af325225dd46befdad",
+          "size": 15838
+        },
+        "closed_states.jsonl": {
+          "sha256": "5c19d36789107210b4e651bf77c42ece99c6103f4355332d20ea46a0949acd35",
+          "size": 76
+        }
+      }
+    },
+    {
+      "case_id": "case_114",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_24_1_0_to_20_2_3_negated_goal_bmc_48.smt2",
+      "original_sha256": "bce15c453201ab20fbe6a36160af88ba92a25e758eac905e06a79204300100e8",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "f410adf060a012a1a5760157882c1e15b13bf42e95f9fe92051715f9e9650f58",
+          "size": 28545
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_118",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_2_1_11_to_9_3_2_negated_goal_bmc_21.smt2",
+      "original_sha256": "331779439e2c39f2289de19d8db6eeccd1b8968257bc68f4a7ddd63475875774",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "e7d147ddfa54553dd242a66de26e53b929384b1d6f0297ddda223fe76ad886b0",
+          "size": 10615
+        },
+        "closed_states.jsonl": {
+          "sha256": "ee6c04c148fac52d2885aa4042f02e50f290d36297665b4cc637eb01aea9909a",
+          "size": 59547
+        }
+      }
+    },
+    {
+      "case_id": "case_119",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_2_2_14_to_14_4_0_negated_goal_bmc_27.smt2",
+      "original_sha256": "cd375761647232e6881f77b9a588b821105f543edfdbf5cb3e19e230d21aa3e5",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "356056ce5c28f4ba4bb742ce0435817cc4b37722e6f72b89c72f6b071589bc5e",
+          "size": 13664
+        },
+        "closed_states.jsonl": {
+          "sha256": "ccd59dbe91f69e741dfabb64af58828c26210a23b0ee4ad56a1ca14cc7376736",
+          "size": 493207
+        }
+      }
+    },
+    {
+      "case_id": "case_120",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_2_5_13_to_12_7_1_negated_goal_bmc_26.smt2",
+      "original_sha256": "a2d3d99c1cf33119f9211e041ba74d449eadc3ce1d38e26e7812189f6e2271bb",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "113bc12ece921494b0da43250f70b9ba278a486d729dedd32b76bc8272e79d61",
+          "size": 13231
+        },
+        "closed_states.jsonl": {
+          "sha256": "c021e5e4102fa0a4755d9b46db7f0e1754f58b99b3daab1ccf58e93699376408",
+          "size": 12271
+        }
+      }
+    },
+    {
+      "case_id": "case_122",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_2_8_5_to_9_6_0_negated_goal_bmc_26.smt2",
+      "original_sha256": "f6d0a532761e097716e73e225832c8f1ac95e95a5163430aa878e9c042ec2464",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "72335c41d7d793e338f8107755b56470264dde016d6339fcded8ff82a3d05608",
+          "size": 13082
+        },
+        "closed_states.jsonl": {
+          "sha256": "e67eb934d7d02ad6793f5311f0e977ad433f6f774448c6d7d1ab3b8134da8a27",
+          "size": 1350827
+        }
+      }
+    },
+    {
+      "case_id": "case_123",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_3_1_12_to_15_0_1_negated_goal_bmc_28.smt2",
+      "original_sha256": "890ee76b136b4cfaf95006064b56cb49ed3e4b1d8ce42048e0f3a4752ac945e8",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "d658c3a1dab05284796bb24e5616cb9e1aa74a38327c5da0ce3f12faa023f694",
+          "size": 15663
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_124",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_3_1_18_to_3_16_3_negated_goal_bmc_25.smt2",
+      "original_sha256": "f972d28ea2e3e849a6a535d633c4c941fca076a0112d711fc15cfa25441ca9b2",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "ea23ab99838b77cc3adb2089d6c42e7e3372c3469ae1c41137f7bb2fa274bbed",
+          "size": 12796
+        },
+        "closed_states.jsonl": {
+          "sha256": "95d25c820d4e15cbaa5ccde5d3b291e288bfbd55b2d8b1c69fe5a5923366bcc6",
+          "size": 69
+        }
+      }
+    },
+    {
+      "case_id": "case_125",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_3_1_18_to_3_16_3_negated_goal_bmc_26.smt2",
+      "original_sha256": "e07b01a825e017ecdc3b5dcbfebfb50b6ccf2232a1aa332f2223e4c496f4eee6",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "8e5a2fc03ccfb077dad0fcaa2eb9ded5ce778f254e906dffdf065992e2615d94",
+          "size": 13289
+        },
+        "closed_states.jsonl": {
+          "sha256": "0ff83d836fac8ab1a4e6fe1ee9ea3767c45732fca15d374a9f35880598a0fa72",
+          "size": 277
+        }
+      }
+    },
+    {
+      "case_id": "case_126",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_3_1_18_to_3_16_3_negated_goal_bmc_39.smt2",
+      "original_sha256": "9afd143ced6b2633240525bdc408381474882d459a44b1bc5de7314a2d1796ff",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "dac9009379f024ff1378d725efd7dbbba0eccaca8f922db42abbd2a063ca50b3",
+          "size": 21976
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_130",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_3_4_6_to_1_9_3_negated_goal_bmc_19.smt2",
+      "original_sha256": "7016c65dacc3c378aa0a8a77b65ea44ba1ded7e9ea8e99e57b1b2cb143800a9f",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "839cf68ee2ae2f8b63912e3020140e628a95891dfdf9d4d344df6cc1fbbbeb14",
+          "size": 9658
+        },
+        "closed_states.jsonl": {
+          "sha256": "d1f5ee74647d6e21c336e85884370811175f0e7c46ee06c5a1433e24e0f6b2ba",
+          "size": 30172
+        }
+      }
+    },
+    {
+      "case_id": "case_132",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_4_10_4_to_15_0_3_negated_goal_bmc_35.smt2",
+      "original_sha256": "42e8aa87af69ff32fa97e5795fbd329f31c4769c34faefb66f7212966255d685",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "1f8ea6f21daae9f3f1f19c8ac17aec3f5acc4cf9ee47a89db3ecfbf549f933e5",
+          "size": 20119
+        },
+        "closed_states.jsonl": {
+          "sha256": "cdcaae9dc1911ac9982469711d43a428684cf3f9a89fd2aeb5b505ca7a9661d5",
+          "size": 4008
+        }
+      }
+    },
+    {
+      "case_id": "case_133",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_4_19_1_to_0_8_16_negated_goal_bmc_33.smt2",
+      "original_sha256": "3338a9217eb65265c7b19c843c26a6e85daba774019a1dde01e1fb770f7076ba",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "5558b537b35ee88a0a22e74fbb0178964f8a1a6794a2584d4e3685436a94f636",
+          "size": 16850
+        },
+        "closed_states.jsonl": {
+          "sha256": "2296f2b5067c35d8216bb4cc69b7cd338a7a583e68c867bd79f801c5aa524ade",
+          "size": 227
+        }
+      }
+    },
+    {
+      "case_id": "case_134",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_4_2_8_to_7_1_6_negated_goal_bmc_17.smt2",
+      "original_sha256": "1d5c1685d17369072a663c345aeed9a520dad274e3ae61acc534a407b4ce24bf",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "079cb39e666ddc6135edf87a64877d4612b5f9f9aa0d37defa94b2c15032ccce",
+          "size": 8767
+        },
+        "closed_states.jsonl": {
+          "sha256": "c1d0b3593577046f8cfb02cc4197441d82572943b60b103896e2aee03de24dd9",
+          "size": 18841
+        }
+      }
+    },
+    {
+      "case_id": "case_135",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_4_2_8_to_7_1_6_negated_goal_bmc_19.smt2",
+      "original_sha256": "036545e01c07e27e3c9edcec1c28b6ff4e332d5903305caa8593147a83419d7b",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "8bdf5eb8f7944924882c1a8f4b096df19da29d66e9e1744a16b5d93d99bfeb00",
+          "size": 9687
+        },
+        "closed_states.jsonl": {
+          "sha256": "0f2b21db2474353b261405cc271728add1ff2ecaa4125ece50c137d309728795",
+          "size": 355787
+        }
+      }
+    },
+    {
+      "case_id": "case_137",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_4_4_3_to_4_3_4_negated_goal_bmc_20.smt2",
+      "original_sha256": "827e92ec9412285cfe1553bbea01d4c262711cc0ce50b3f6923b213f2cbe292f",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "f7cba52f9ad61341da65d5e4744bdfc19bf916d8bb973073b2581cd89c64d8e4",
+          "size": 10063
+        },
+        "closed_states.jsonl": {
+          "sha256": "f6c4751455230c7c04d418c59e452c25be2ea3a4fe6e10e3296e92419b2ee870",
+          "size": 637176
+        }
+      }
+    },
+    {
+      "case_id": "case_141",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_10_6_to_18_1_2_negated_goal_bmc_28.smt2",
+      "original_sha256": "634da0dc2771d570f1670bd7d3da3f194b2fc88c969de07ab2444be1ae88e88b",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "4e80d33c536f2b82be6d18e6222506938341ec3d494c265961662405fd3492b2",
+          "size": 14252
+        },
+        "closed_states.jsonl": {
+          "sha256": "96640a72c28da06bb96326464665c91ca3bdd945ad3ca37bea055b35fcf723ae",
+          "size": 4190
+        }
+      }
+    },
+    {
+      "case_id": "case_142",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_10_6_to_18_1_2_negated_goal_bmc_39.smt2",
+      "original_sha256": "8b8b43b2bfc6549056720d59235d2f4a8f8fbd60c445c01daf96a0324678b12f",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "8c07c2c03250031460e93e7a00c6d3bee9cb9f7d0338335a890300a14dff99ce",
+          "size": 22952
+        },
+        "closed_states.jsonl": {
+          "sha256": "268ef3f79581048eae57e9f7f5f6f940b2e2b9b1001584c3b7d5bc50a1995062",
+          "size": 132
+        }
+      }
+    },
+    {
+      "case_id": "case_143",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_1_10_to_4_9_3_negated_goal_bmc_24.smt2",
+      "original_sha256": "19c05d8e35291f4b16b1821ef8072a162f136eacfa69edd6764ab984aff52296",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "1b79beded9f6ccb9e698bc45f9bffec5b9dbf5aabaf58202d3cffd1203879579",
+          "size": 12131
+        },
+        "closed_states.jsonl": {
+          "sha256": "9845ea49b6ed61791649e35d3facb884d5a20d6300a476750979c6f5e3905d49",
+          "size": 43237
+        }
+      }
+    },
+    {
+      "case_id": "case_145",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_21_0_to_20_6_0_negated_goal_bmc_42.smt2",
+      "original_sha256": "521facb0e50c5189b8760093b2320f4a484108a64e5268bca4ab36f96d891abe",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "2a421a216c723f886df21d9584747902b0ec8542955febc6dd3fb71cc9b5278e",
+          "size": 25420
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_146",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_21_0_to_20_6_0_negated_goal_bmc_44.smt2",
+      "original_sha256": "bb63c6cb38356e20289887de63e160824b3c94d8290891ead022f1d9ba9abd70",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "78167b363206c8996e93fdbc847f07d0e38c614922278185796d3d685025733d",
+          "size": 26476
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_148",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_3_8_to_14_1_1_negated_goal_bmc_23.smt2",
+      "original_sha256": "127d1646e83293c1b40ea03748e47689877d41fcd530135f02027ce54c2cf098",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "27b730540a69768510838b06ed55a1c556afe0337bc0beb93c614b193026e35f",
+          "size": 11642
+        },
+        "closed_states.jsonl": {
+          "sha256": "7be3cb090a31afda2a5f0588d80749fdfd5a5225f3fca76ee4a2a76cbd41aeb6",
+          "size": 103174
+        }
+      }
+    },
+    {
+      "case_id": "case_149",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_3_8_to_14_1_1_negated_goal_bmc_30.smt2",
+      "original_sha256": "4621b6350781ecf6551db8651675a7c8345a13bc34c31e1ff0e55a74800c04c2",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "e72397970f836f486aaf89b055dedd8d72d19a68fb43191c28036483a0fa924c",
+          "size": 17446
+        },
+        "closed_states.jsonl": {
+          "sha256": "4f059fa4329404a9178068c1684675f21d23b8e19a1dff98038b7b9fe48282e4",
+          "size": 3536
+        }
+      }
+    },
+    {
+      "case_id": "case_152",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_4_17_to_12_6_8_negated_goal_bmc_39.smt2",
+      "original_sha256": "d4acd93f1af4e9b0d08997fc1bffbac9dec438d0eebebc4e0c0efc95a6202efa",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "6a106b6cbeb404087cc1a0460d8232e5c3e6bb537aca697df4f2bf6e1b96549b",
+          "size": 19996
+        },
+        "closed_states.jsonl": {
+          "sha256": "88d972833c01598488f9b2b44e0c02189ea70c67d4b453fbc3086c4317e4313a",
+          "size": 280649
+        }
+      }
+    },
+    {
+      "case_id": "case_153",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_4_17_to_12_6_8_negated_goal_bmc_49.smt2",
+      "original_sha256": "4b651c0f27de8d79f2c1199717922564678131e824eae792ccaa77c0a25c9e22",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "3c4500aaac9a9ec8c51ee9658e1cf18c212cbf24b8b809d03e2b391b3d460c6c",
+          "size": 29159
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_154",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_4_17_to_12_6_8_negated_goal_bmc_50.smt2",
+      "original_sha256": "2a5f5ba0dd908d4f504499e3f6ab28e5145ddbfe3bc86564c14d157248f6ef41",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "d6f0491d74bb0b48718e3a84fe6a9f5fe84b10f40caa5118bbb13784b8c4a760",
+          "size": 29700
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_155",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_6_3_to_4_3_7_negated_goal_bmc_18.smt2",
+      "original_sha256": "f5859042c06a00a75825c1d065958c2636ba90e0a5a1acece4807cbf04ffa3c1",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "c79a30fc006caabefa4c8f63d177aed84cafb662fad2be19a6ec5ddbd70fc29a",
+          "size": 9226
+        },
+        "closed_states.jsonl": {
+          "sha256": "2ab8dc6a435b6da060e7acb1e7d33af242a406ea3f2ea8f3698e75efa97d7e31",
+          "size": 3781
+        }
+      }
+    },
+    {
+      "case_id": "case_156",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_7_5_to_8_8_1_negated_goal_bmc_21.smt2",
+      "original_sha256": "48b4bc037928b2b70dc1ff0e3489d4fb4c23e01e01c84d336c38648ed4059d69",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "eda48bc488382ad95bdca263a0d2f832da4483111fd2ff1ebf588d5457b2505d",
+          "size": 10702
+        },
+        "closed_states.jsonl": {
+          "sha256": "0d2790c8fa80f07e0fce733a859747d335788e290fa41332f51a9fd65ecf374e",
+          "size": 810
+        }
+      }
+    },
+    {
+      "case_id": "case_157",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_7_5_to_8_8_1_negated_goal_bmc_32.smt2",
+      "original_sha256": "104541b45bcd039da66ab5ab442a1c8a2694a4f62350095723d2877abf4721fd",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "8b4292ff11496c9846425178e3d82a28e6a70cfe41ec829846cd12869e27b3f4",
+          "size": 18525
+        },
+        "closed_states.jsonl": {
+          "sha256": "96336025c6611768e31c70ca30a46f5220e952571804508e606cbbb36ca53f64",
+          "size": 11305
+        }
+      }
+    },
+    {
+      "case_id": "case_158",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_8_2_to_8_0_7_negated_goal_bmc_20.smt2",
+      "original_sha256": "148f208e263585f08303f17fd1e730135b5abef42f30b84a92ef031c9f95a9c1",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "747e5ad07b8c6d73bf0eb150596fc25564fe18d863d1669c90b66a390e1c4e20",
+          "size": 10175
+        },
+        "closed_states.jsonl": {
+          "sha256": "ad438a2af8514daa6476628bfa9bb530a194abc581e74aeee9496368848919c0",
+          "size": 4296
+        }
+      }
+    },
+    {
+      "case_id": "case_159",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_8_2_to_8_0_7_negated_goal_bmc_26.smt2",
+      "original_sha256": "5cf7f4347751615184e178fd119287e42acb8582fbb2645ed63c4e5bfa92ca19",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "83f23b811987bddf3242b05360497850dfcf6c98d294175a1923aa2e8639a4e2",
+          "size": 15379
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_161",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_8_8_to_0_0_21_negated_goal_bmc_35.smt2",
+      "original_sha256": "ecc7fa45dbdc79db03de0719908f5577c21103a8ba67e1825a5031604674c3bb",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "027633276f22791c5b24cde9935451ff566af1be01ef3b96cf560844e9bd4dc6",
+          "size": 20880
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_162",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_9_3_to_13_1_3_negated_goal_bmc_25.smt2",
+      "original_sha256": "bb6e576c415fdd8a1a3360d0a9dbcb85e58f4c033c7f87bdfbafdcd0bd8d10c0",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "2e7777f59a4cd0ea76a0341ba31a37c75d14c66c22fdb595c2f90badb00b555c",
+          "size": 12651
+        },
+        "closed_states.jsonl": {
+          "sha256": "1000ee1edde83508a922d135bd0bd9c04596c6ac53bb88deaecbb5e90a30d141",
+          "size": 84777
+        }
+      }
+    },
+    {
+      "case_id": "case_163",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_5_9_3_to_13_1_3_negated_goal_bmc_31.smt2",
+      "original_sha256": "0145724e73d8eb2cc2fa5569b57f0c3408d05ea40d3175b27fc47f51ccb5484c",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "c6ecf4e4fe09a264d1f8f31ca00d99f866e9b1e67a1e63080a9ccb1b79e7e3a2",
+          "size": 18020
+        },
+        "closed_states.jsonl": {
+          "sha256": "edd0931c0e9f218a942d1ece0f8b5c42892a536d78b52951ed2b9827679417d2",
+          "size": 9678
+        }
+      }
+    },
+    {
+      "case_id": "case_164",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_6_1_11_to_6_0_12_negated_goal_bmc_27.smt2",
+      "original_sha256": "c058a66b083e96d9fcd7d631a664edc625199da2a3d516adf5b52b7d3af9c016",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "56af2b462d24cf9ecc92ded9231996f9b939f19c700ec5d642396b5328c62fdb",
+          "size": 13664
+        },
+        "closed_states.jsonl": {
+          "sha256": "0dc7172abd3f0774f08faf3822de602ace3bf2e851308cd0c5cf708cfda91a2d",
+          "size": 168865
+        }
+      }
+    },
+    {
+      "case_id": "case_165",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_6_20_0_to_1_12_13_negated_goal_bmc_37.smt2",
+      "original_sha256": "741c6919b693fe0b7bced652988138b8990bd90eec85c57f1412ebbef13e0cdb",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "9db9b591579629a5eea0ec85914eae86aa1f3c0304c11080d7cb9b02f3ff0198",
+          "size": 18956
+        },
+        "closed_states.jsonl": {
+          "sha256": "6c08d4bc1a23eb72a8b7d70ca5cb4d2d0cae28589f6fda80cabc1003fd7a9f53",
+          "size": 5194
+        }
+      }
+    },
+    {
+      "case_id": "case_166",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_6_20_0_to_1_12_13_negated_goal_bmc_41.smt2",
+      "original_sha256": "6ef6a6db1052f704234bb3bf2d3209d559f9df39c178712a79f430eb1b9c41ce",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "39987ba2304445fbd9cc1f05296bc27c4959f8d5c5b9f4d282abb182b13068c7",
+          "size": 21036
+        },
+        "closed_states.jsonl": {
+          "sha256": "56a5a663890c752778cd6cb28676bac0ea96e3525c2144c0e6b523c3844cbf71",
+          "size": 1085313
+        }
+      }
+    },
+    {
+      "case_id": "case_167",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_6_20_0_to_1_12_13_negated_goal_bmc_45.smt2",
+      "original_sha256": "d6278797f5ba64ac6dbaaad167c2a940486207f84e3aee5d78698f7c289fb3ba",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "59c2e44a4e7d66261a78c6217fbddef0ac05ce88fcf9cd12afc065e7bf2ee448",
+          "size": 27011
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_168",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_6_2_14_to_12_6_4_negated_goal_bmc_28.smt2",
+      "original_sha256": "d540688f5d2ab28eb5a243fc7b3b651df2c952e5677c2f597b382a4dd09b142d",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "96388ed714e75c6709bdea1a049f25d543a4653c647b7bef418c6ea5fdaac976",
+          "size": 14281
+        },
+        "closed_states.jsonl": {
+          "sha256": "c8fe98e4d3123217c5c24ed0264ec450851310bc2fa42c7101e3d5cc86326062",
+          "size": 2209
+        }
+      }
+    },
+    {
+      "case_id": "case_169",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_6_2_14_to_12_6_4_negated_goal_bmc_34.smt2",
+      "original_sha256": "1a70d957ad0d220caed4e7db91f798bed0592214175d9132f5f75421e2057fcb",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "96655cc3980edf9060496c6bd68d4319a10abe40c46eddd1a56f2b016d401149",
+          "size": 20448
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_173",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_7_3_12_to_12_0_10_negated_goal_bmc_42.smt2",
+      "original_sha256": "f5742359e3e2469aee8d35b2f7e6fced8f3bcf2e3bdf13065818b1c1e71ff30b",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "640e8a6bdbbee553b2d7cdaba00574646e4190366e755e94aad95231c7dc5b92",
+          "size": 26682
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_174",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_7_5_0_to_1_8_3_negated_goal_bmc_17.smt2",
+      "original_sha256": "2bff342699ccc1f12ff395188118fc8dce1c7a6e7ab6f0e1b5e31dd62b3b9b74",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "fbce8e31312cab60665eec9ea62bc676246e786ec81e77230518a9e5f05dd7f0",
+          "size": 8705
+        },
+        "closed_states.jsonl": {
+          "sha256": "2b4dbf9bfce4ab95d8627bb645fe0b0d53149bf3aa98a0648734b7ee9a6f8bda",
+          "size": 7478
+        }
+      }
+    },
+    {
+      "case_id": "case_175",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_8_10_1_to_5_9_5_negated_goal_bmc_30.smt2",
+      "original_sha256": "92c0a14d9824da5ddf68f7d4c6d35f7b861b70dc3a203eddecc2eaf69971eee2",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "afc51861560e83f7349dcd838adecfc2e1ee3065c97e7d1a12033f7ca240deb4",
+          "size": 15194
+        },
+        "closed_states.jsonl": {
+          "sha256": "2e37b14cac26da4032d3fb94800b785f5e7257f5f2f08cd01ba56ee040bc51a9",
+          "size": 6565
+        }
+      }
+    },
+    {
+      "case_id": "case_176",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_8_10_1_to_5_9_5_negated_goal_bmc_36.smt2",
+      "original_sha256": "adbb826a102aacd00404f8d74f701c4a33ce1aae289318c8d1ca662d87a53b68",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "8124137513d56dc39c59e5ecaa42bb4879175920c402a3a4abdb8d4d84d692be",
+          "size": 21259
+        },
+        "closed_states.jsonl": {
+          "sha256": "ee1657c693a759dc0c8ec5bc8fcebbd776368c3e6baee7451cdece4613b25081",
+          "size": 8479
+        }
+      }
+    },
+    {
+      "case_id": "case_177",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_8_2_4_to_0_3_11_negated_goal_bmc_18.smt2",
+      "original_sha256": "b5dffab534b8ca710fb269d38c05165f814eb70a445c8f748113850a541865e5",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "6038f0971ce8d61f0785f20157b90397e5a7072fd1efe35489690c386bc42e3e",
+          "size": 9222
+        },
+        "closed_states.jsonl": {
+          "sha256": "f3faf4eca41b09a5ecc270451c41326b3e870d5ce0d1b1fb44f1b1295614b6f1",
+          "size": 5369
+        }
+      }
+    },
+    {
+      "case_id": "case_178",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_8_2_4_to_0_3_11_negated_goal_bmc_21.smt2",
+      "original_sha256": "cead0e4119a9579c25837e4ee2bdf9bf5b7f8e31078331e0b30e39bd71578bf3",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "3ee212de6dc570ce594ff98fe06296a02c5a936927a46a70a685e627dd6f572a",
+          "size": 10611
+        },
+        "closed_states.jsonl": {
+          "sha256": "fce55a018eacdaa4c1eda6662103f04cdfac2e004acea88a61e5c30c8c1a3cd2",
+          "size": 160564
+        }
+      }
+    },
+    {
+      "case_id": "case_179",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_8_6_1_to_8_1_6_negated_goal_bmc_25.smt2",
+      "original_sha256": "863acb644b1226ea92436bb055ced771eafc1ce21131f2daf0cb8100fba81e90",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "4de2d5e7e6a87fa087b43ea6b189311981524b07b348b5f66a87bdff1726f4f8",
+          "size": 14890
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_184",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_8_8_1_to_9_4_4_negated_goal_bmc_25.smt2",
+      "original_sha256": "da9cf8906b83101c7221f80b1ef053153a3c78e41b409763cec6d356bd79e9cb",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "e8baaf1fc1705c34d64034a18a3e75ae16083e8e0c711d32b86677bee109aa1b",
+          "size": 12651
+        },
+        "closed_states.jsonl": {
+          "sha256": "b8be6da37693ae78ba2eab2e72ecbefe402bb60c202e8017f9b8a7851c6d8a2a",
+          "size": 36324
+        }
+      }
+    },
+    {
+      "case_id": "case_185",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_8_8_1_to_9_4_4_negated_goal_bmc_27.smt2",
+      "original_sha256": "d8237b75c68a583af78c36a867c6e17dce2895afd589f06bae0b75d667b61304",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "c1b2516cfd9cf87a52dfc0752d616b450a6ab8a5e77136b9c88ef6d094d1c171",
+          "size": 13639
+        },
+        "closed_states.jsonl": {
+          "sha256": "6606b593cf3ac7bcb23b5f687d5eef33a59ccd294d96defebd91c22dbb1097b9",
+          "size": 379731
+        }
+      }
+    },
+    {
+      "case_id": "case_186",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_8_8_1_to_9_4_4_negated_goal_bmc_31.smt2",
+      "original_sha256": "365969185730a1bc9bb47e449b4f6916e8397614840847e745ace4e62ab55009",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "73b9a2f4b0f3c52055adf2fffafe1f328515101836042af889c47beb0f9c9fe8",
+          "size": 18020
+        },
+        "closed_states.jsonl": {
+          "sha256": "e2bf03f8f82f3945f6db50a1e0645a2618cfb55f0a3deddf53228c8e6b9f8559",
+          "size": 28958
+        }
+      }
+    },
+    {
+      "case_id": "case_187",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_9_10_3_to_1_0_21_negated_goal_bmc_30.smt2",
+      "original_sha256": "ec036268fff4edc789ef9eb8bf9e7fb0eecf40ae8c0aa3d747b02315a124f7c1",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "a622bd53100b3effd4ec6aaa3c81d55ded72c7ced7ad8b64e21f936efb1707fe",
+          "size": 15277
+        },
+        "closed_states.jsonl": {
+          "sha256": "b6e954bec3f4d00631deab00922025a468c5134c8ccd548fb0dc383df33c769c",
+          "size": 506622
+        }
+      }
+    },
+    {
+      "case_id": "case_188",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_9_10_3_to_1_0_21_negated_goal_bmc_32.smt2",
+      "original_sha256": "5a1f78150c0c7f3cd536d3e0815a02b8c721c8291c278240cff7e2ea2772af22",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "09931625985007abf30aee74477b9d1133942d51973efd3d51f2c66c0cc17c78",
+          "size": 19428
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_189",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_9_12_5_to_20_1_5_negated_goal_bmc_46.smt2",
+      "original_sha256": "bb6c73d3f4186c1aeb359ad38364e2836d40f9beee71e00480e6187c88806ee9",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "37c2958a3e7bc4722241af1a69eef6decacd7ef05845f88124284967766a1246",
+          "size": 27548
+        },
+        "closed_states.jsonl": {
+          "sha256": "cc16127da6d7e2630232bed2fe29d33f20b43944393281887261f4793b4063f7",
+          "size": 2572269
+        }
+      }
+    },
+    {
+      "case_id": "case_190",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_9_12_5_to_20_1_5_negated_goal_bmc_49.smt2",
+      "original_sha256": "c24eb581f10ada9a4d1e508cc29dd691719809b6323638e2b3c9a70cf0635ad0",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "fe94149a7134b50b624554261da06faf67a9ee487c960a93c404096faa3a5e04",
+          "size": 31733
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_191",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_9_1_5_to_8_0_7_negated_goal_bmc_27.smt2",
+      "original_sha256": "48be0636a65c138876340ba7d29dab47fadee1715f05407252c503a60c7a9254",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "bf9c6cd3ede271a8230839c364bdec9154a1a41d4ffc99b4a8e3e18cf0895f14",
+          "size": 15874
+        },
+        "closed_states.jsonl": {
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "size": 0
+        }
+      }
+    },
+    {
+      "case_id": "case_192",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_9_1_7_to_11_1_5_negated_goal_bmc_28.smt2",
+      "original_sha256": "8011fc9938b7ab212c8c6c5700d6c75566272135973d833b44bfc82ddc439e54",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "e6699d707405fd84f2f48e34b9aa6a8649b950db5307cbe19cfce5d0bdc26d6a",
+          "size": 14136
+        },
+        "closed_states.jsonl": {
+          "sha256": "72b82861eae6457e3b2bc74c2161b84acfd785c21779dc3d9b3d2a318010ca10",
+          "size": 213524
+        }
+      }
+    },
+    {
+      "case_id": "case_193",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_9_1_7_to_11_1_5_negated_goal_bmc_29.smt2",
+      "original_sha256": "710faa42eb965c023a5ed4f1754223f0d8ebc256fbbe4a152888d78f33f447b3",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "f533b33bd4efcec340cce2a7027950b5a2cdd0280321414ca0fa5cc8224f8ab2",
+          "size": 14635
+        },
+        "closed_states.jsonl": {
+          "sha256": "34a82224c53bbce642a6fba9a770f6b7ae7a356fe341b7b4140ca0d6e3fbff7f",
+          "size": 1078439
+        }
+      }
+    },
+    {
+      "case_id": "case_194",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_9_4_1_to_0_13_1_negated_goal_bmc_23.smt2",
+      "original_sha256": "2a687a70e548aa4c136d443a459d72197fd27ac0d622146d5fd81e63970fe56d",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "8cb0f14abeab91500a0e5403925125bc157f8dd8e479db5535aa8fb867bd9975",
+          "size": 11580
+        },
+        "closed_states.jsonl": {
+          "sha256": "55cc20ed0dd89b03bff1bc4dff2095650a7dbf513c1acbaa8523859390429b36",
+          "size": 775665
+        }
+      }
+    },
+    {
+      "case_id": "case_196",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_9_7_0_to_9_6_1_negated_goal_bmc_24.smt2",
+      "original_sha256": "73e3b5e5dc27898fe25d140d540102620ca4061021ccf16de241cc2ccf27bb6e",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "449c46a8f9a249a54037812852421f054097bad42f264528915627b5e32d92f4",
+          "size": 12127
+        },
+        "closed_states.jsonl": {
+          "sha256": "547e742d78c25ac2b4e759cf0e31e9ac81990272e8394fd4b7b1a8b43c373f7b",
+          "size": 155
+        }
+      }
+    },
+    {
+      "case_id": "case_197",
+      "logic": "QF_DT",
+      "benchmark_path": "non-incremental/QF_DT/20230720-blocksworld/blocksworld_from_9_7_0_to_9_6_1_negated_goal_bmc_25.smt2",
+      "original_sha256": "2e34b71d95970100b1e6ac14e1c30b6d372187c4f051dbfa55e93a119ab5dd1b",
+      "verified_status": "UNSAT",
+      "method": "bounded_trajectory",
+      "archive": "smtlib2025_additional_118_trajectory_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "40709d0e0907e71ed7d058d7ea23f9431f909ef0c2b9192bc0730067e48bfce0",
+          "size": 12618
+        },
+        "closed_states.jsonl": {
+          "sha256": "7805b0a9a49893e1225e783855df29dad435631a46c36e369c8692bb2b2465dd",
+          "size": 1889
+        }
+      }
+    },
+    {
+      "case_id": "case_243",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/ChannelRouting/channelRoute.in8.smt2",
+      "original_sha256": "4068abcc4822818261b2f3499d798b9463f0b1b1f32b8b4038f7b4e73a3b5ecb",
+      "verified_status": "UNSAT",
+      "method": "track_capacity",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "capacity.cnf": {
+          "sha256": "dd2eec63324f61ba62ec895c9e3b7d6942e14ced5c266a291db64df1d993deb4",
+          "size": 36305
+        },
+        "capacity.pbp": {
+          "sha256": "a4799c768c890bd7a93060799a0d02df0ea81a6c722b43ca78b57e4623527805",
+          "size": 26733
+        },
+        "certificate.json": {
+          "sha256": "f951b70580e6c9eebd37a01b0fbfd337de25f0b72a23e5e499824942fc8165e0",
+          "size": 337666
+        }
+      }
+    },
+    {
+      "case_id": "case_244",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/ChannelRouting/channrlRoute.in6.smt2",
+      "original_sha256": "a4fe6f062dc39c730c1a79d60fa05bfd5d46a07bb73e50a75b5a4bf15789923a",
+      "verified_status": "UNSAT",
+      "method": "track_capacity",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "capacity.cnf": {
+          "sha256": "dd2eec63324f61ba62ec895c9e3b7d6942e14ced5c266a291db64df1d993deb4",
+          "size": 36305
+        },
+        "capacity.pbp": {
+          "sha256": "a4799c768c890bd7a93060799a0d02df0ea81a6c722b43ca78b57e4623527805",
+          "size": 26733
+        },
+        "certificate.json": {
+          "sha256": "9fed615b287e956cc96d1dac7889cffb4ac3b34db66143673ce666b1950dd041",
+          "size": 337666
+        }
+      }
+    },
+    {
+      "case_id": "case_246",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=130-density=0.1-instance=3.smt2",
+      "original_sha256": "3e4d65172efcaa448a3a87a1886048fea5a9d20dca0aa5f0a84de9782499d76e",
+      "verified_status": "UNSAT",
+      "method": "graph_tree",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "36c5372ad9bd3e5bbc024bffd42634b38400a1be8cb0ed6c36eccd620b9ba7dd",
+          "size": 1128138
+        },
+        "colouring.cnf": {
+          "sha256": "53169b0a0a0a0813b762c83fe0f12bbfeb33ca68e00630950d98f1eb461ed2ee",
+          "size": 67757
+        },
+        "colouring.tree": {
+          "sha256": "d146d220e0d7cb19f0c60a9bf3f374070b83193c7eea032d03714b9ca20bd527",
+          "size": 8482375
+        },
+        "implication.cnf": {
+          "sha256": "5a0fd1c7f037c314d56b422d0a4b090c346b189eb40e829b22b6928773b18fa4",
+          "size": 635800
+        },
+        "implication.pbp": {
+          "sha256": "d64f8418b9f746258f42d997bf4e60db8e976be06b0379ce651dd3865a822f8b",
+          "size": 492161
+        }
+      }
+    },
+    {
+      "case_id": "case_247",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=130-density=0.1-instance=4.smt2",
+      "original_sha256": "cef42242a1f722bcac43cd7d5e11c97967b02d0994ca8d08641514f1c2118164",
+      "verified_status": "UNSAT",
+      "method": "graph_pb",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "05cf881316a813de8b3b81c6dbea54c0bded63c08df0abad3bfb44a17947b92f",
+          "size": 1128963
+        },
+        "colouring.cnf": {
+          "sha256": "71c7694483facb658f8bfdb8f8b90e1fca6b8916b11023471bcc62ce0a7e6566",
+          "size": 66889
+        },
+        "colouring.pbp": {
+          "sha256": "1af2180a052990bfeed020c79996432832bb7e3c4945e0393d62996038e75645",
+          "size": 65929872
+        },
+        "implication.cnf": {
+          "sha256": "195a1908c5da4a33b843e4d38406ebaa43ebc7d8393d1a490096c0aa0e7ab3aa",
+          "size": 633801
+        },
+        "implication.pbp": {
+          "sha256": "d406625dd1bb1f378b0fbb9361cf958e0754248933f67c4c89352aa1041eafb3",
+          "size": 491338
+        }
+      }
+    },
+    {
+      "case_id": "case_248",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=130-density=0.1-instance=5.smt2",
+      "original_sha256": "9a163882324895e313523137bbb4890963b77fefd0840e940ebaf34749f50dde",
+      "verified_status": "UNSAT",
+      "method": "graph_tree",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "bc0afa54545271a58fee167d1f0785d349a31277567336e8632ccb0ada1b6502",
+          "size": 1142991
+        },
+        "colouring.cnf": {
+          "sha256": "c58e7535a0785961b57284085c668262f10d0380fc719cd3b990435dada91f89",
+          "size": 68944
+        },
+        "colouring.tree": {
+          "sha256": "c09b9f58e59a6b109fdbfc9c78397d3f0bf6e8dc83b48ae8154bfab441e426bc",
+          "size": 11398393
+        },
+        "implication.cnf": {
+          "sha256": "3a0175ea04faeaff13e2f83b44253a938cddb2304afc2ebf399a30dcb28fdfc9",
+          "size": 645485
+        },
+        "implication.pbp": {
+          "sha256": "10eff1170821ffc6791a9f02b63037dbf8f1ab477ebd2861cfee2ece3ea39226",
+          "size": 499226
+        }
+      }
+    },
+    {
+      "case_id": "case_249",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=130-density=0.1-instance=7.smt2",
+      "original_sha256": "12648c1587dc3e436421d263ff7ccd6e06b40c054cf09c0623d339846dbe8063",
+      "verified_status": "UNSAT",
+      "method": "graph_tree",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "d8d2d61033ae54b6b72e0e183745d7b8d4d9a2f3cc73d4874d447b9a6d7ba5ea",
+          "size": 1115911
+        },
+        "colouring.cnf": {
+          "sha256": "eb0b3c1787e9a708fc62bb0dcf4ebcd6979f5b49155e673a902e64ed51979a30",
+          "size": 66942
+        },
+        "colouring.tree": {
+          "sha256": "2e24ff965e371cfdc406348c6c9cc51e7038da90762c81dbac1b9a25302d0332",
+          "size": 2674913
+        },
+        "implication.cnf": {
+          "sha256": "4f29470c1096d4b749c61b5d85f2bc8605b9d5db534d8e33f9ae690a94db45c3",
+          "size": 628589
+        },
+        "implication.pbp": {
+          "sha256": "50aeaf4644dcb61968281e566f224e4f8e4621bb1f5e99de52e6372900cffebc",
+          "size": 487365
+        }
+      }
+    },
+    {
+      "case_id": "case_250",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=135-density=0.1-instance=7.smt2",
+      "original_sha256": "ffdc1583452a28a72cd836826245a40669b5fae6cc443b15de8fe20934744743",
+      "verified_status": "UNSAT",
+      "method": "graph_tree",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "844bcaa3acf58e533657a5cd54205d911a085720364f0ea614bc22cb7ac7006a",
+          "size": 1168692
+        },
+        "colouring.cnf": {
+          "sha256": "4cec10bb36c14e9743f29df5f65b9148d11c09211814e1ef8b9c75e620ff1984",
+          "size": 70099
+        },
+        "colouring.tree": {
+          "sha256": "16233895d4726d57b059ceeda5aec869dd948c1b715c3bd446f322f8ca03a83a",
+          "size": 22674768
+        },
+        "implication.cnf": {
+          "sha256": "ffd6a89bdbc2e5dadc5693cbfb762549a3dfb9486a4de3a2d65276f9ffc5def1",
+          "size": 658654
+        },
+        "implication.pbp": {
+          "sha256": "23cc606dc54f1b493936fc6708503d3bcb5143c77a61e28b1fe606dfccdd6277",
+          "size": 509475
+        }
+      }
+    },
+    {
+      "case_id": "case_251",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=140-density=0.1-instance=2.smt2",
+      "original_sha256": "9106afd606d61720b5aeec1a8ec4d016a8b94c1e3dcf65c6f5f516b727164cfb",
+      "verified_status": "UNSAT",
+      "method": "graph_pb",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "8f0678bced7597799a03d9d493318aca666b754d75bf4e711301c17709fe355b",
+          "size": 1292503
+        },
+        "colouring.cnf": {
+          "sha256": "2717a859b13fe113288d079fe9fa424bd2c526e813f70c27e1c94e6cffae7194",
+          "size": 78158
+        },
+        "colouring.pbp": {
+          "sha256": "2ff10d8d63eb2996faa99a706813e34d0f13928124872dc47a157eefd0da4a2e",
+          "size": 68383686
+        },
+        "implication.cnf": {
+          "sha256": "3ea986514e3e10b297dc9308f24f4ce196e58adeb9d22908550c9195a411f54f",
+          "size": 732907
+        },
+        "implication.pbp": {
+          "sha256": "6edc4917e093001cc8e052c888bc822180d432b5b6d240bedac3fa4f19d4cfbc",
+          "size": 561417
+        }
+      }
+    },
+    {
+      "case_id": "case_252",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=140-density=0.1-instance=4.smt2",
+      "original_sha256": "1d6080e836571968fd3aea7ba684eabc1822e9fe30d1eb26bd7c7c11379ae57b",
+      "verified_status": "UNSAT",
+      "method": "graph_pb",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "86901ae3fa60ba9801c4392e5dbcc74bae3dfb1d4dbee6e7021d7ccf406537e0",
+          "size": 1228054
+        },
+        "colouring.cnf": {
+          "sha256": "20fffeabde89b88966fe0cee7627b4a13e04bd21a16ed5a715a1dbef2cd4498e",
+          "size": 73923
+        },
+        "colouring.pbp": {
+          "sha256": "ad1651e192f7ec0d6f5bf161c1b938645d81c576972ef2036743dbe95585dd0e",
+          "size": 80890226
+        },
+        "implication.cnf": {
+          "sha256": "da5155b59f175b760cabace80fae748efa737122bdbbed33ac56ed8aaa397a86",
+          "size": 693582
+        },
+        "implication.pbp": {
+          "sha256": "4e35e2845df39d4aca80378dd050d8ab6662119041fe03ef6454a86270fd3729",
+          "size": 534930
+        }
+      }
+    },
+    {
+      "case_id": "case_253",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=140-density=0.1-instance=7.smt2",
+      "original_sha256": "73c318c75150344db1d1b4a857158544a19f85d73b54d9f70455854e9a05e17e",
+      "verified_status": "UNSAT",
+      "method": "graph_pb",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "c86f2e526e08337543b147853b54965dcb0ca2d7fd1f6fccf0ca45b14bd37f33",
+          "size": 1245976
+        },
+        "colouring.cnf": {
+          "sha256": "7db76626268e745bd32611d7b311b9f4be83bc161fc0014be50d927538ae896d",
+          "size": 74996
+        },
+        "colouring.pbp": {
+          "sha256": "c3ad1115b475a89696dd4f8c0682bdf59d69c4ad911f60f8d019f25713e97e5e",
+          "size": 32763791
+        },
+        "implication.cnf": {
+          "sha256": "27dce5012c3ee125f493dd13e0eb11d05bfa5eb680ef8b6aa581556f8cef1d87",
+          "size": 704514
+        },
+        "implication.pbp": {
+          "sha256": "cfebd656e75b20a16e0af820f9e515454b78c951337d772eafc559d199d53d51",
+          "size": 542322
+        }
+      }
+    },
+    {
+      "case_id": "case_254",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=140-density=0.1-instance=8.smt2",
+      "original_sha256": "e11021a594dc795e4a278093879563d612356e41776541aaf8ce39f25258013b",
+      "verified_status": "UNSAT",
+      "method": "graph_tree",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "c60520a225664d8c36c33683fe1b67ec8bdddf041b467d2f62d336ac3fd150b8",
+          "size": 1297883
+        },
+        "colouring.cnf": {
+          "sha256": "5b2225ba471d7f68b2d1b71a62c10d1f5dabf46e0a38a283954223c81c3a0976",
+          "size": 78643
+        },
+        "colouring.tree": {
+          "sha256": "2fc53ab0c61a88f456c04fb4e45b988a2c23bb2f022a942bf50be29ad23c3f9e",
+          "size": 3415966
+        },
+        "implication.cnf": {
+          "sha256": "4d75144ea4de364e4b2ebee40f35f220cdede4ca42282eda3dcb5f19ca55a309",
+          "size": 736177
+        },
+        "implication.pbp": {
+          "sha256": "f6d47d7b1631e2f74603f614356af521ebbf24b1dc6a36717435f09a1a5f55af",
+          "size": 563601
+        }
+      }
+    },
+    {
+      "case_id": "case_255",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=145-density=0.1-instance=4.smt2",
+      "original_sha256": "fb34a75b0aab0e27616dd062ced4295935d9d12749a5aa76b7f25b894bc7dd71",
+      "verified_status": "UNSAT",
+      "method": "graph_pb",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "1fd1865eea6d24972e7092b4a879a964b51934a1367d4c538c71217fbeae8c13",
+          "size": 1344705
+        },
+        "colouring.cnf": {
+          "sha256": "389a84bb73451be1b1ac182752c783eae6695b8e09bcf40c04296330591bc00e",
+          "size": 81113
+        },
+        "colouring.pbp": {
+          "sha256": "9e0a8b6c865cb87fcee7090fd09165ba7058d685dcdb530890890074422f1d83",
+          "size": 65728852
+        },
+        "implication.cnf": {
+          "sha256": "a196fb8c49ab9a73dd8502e5921e8494b40d2671e4571c0805a107f69bad2072",
+          "size": 762393
+        },
+        "implication.pbp": {
+          "sha256": "4915cade7bc215b5c80d49c79f6754c7d768e361ca8ceb8f0ea8b43b324608d8",
+          "size": 583242
+        }
+      }
+    },
+    {
+      "case_id": "case_256",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=150-density=0.1-instance=10.smt2",
+      "original_sha256": "5f8d7ed1d01b2410e1e2a0f6db5b4326f75a82b9601b353bb39da344f95d4ea1",
+      "verified_status": "UNSAT",
+      "method": "graph_tree",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "db03e8f93d1619f3034414399edef55db59912be8993cd09276dee88dc89c472",
+          "size": 1378992
+        },
+        "colouring.cnf": {
+          "sha256": "efc03e1eef66ac085cee3b61e98befce8337dd74a56ba0de18c9bff4f74f2541",
+          "size": 82721
+        },
+        "colouring.tree": {
+          "sha256": "96caea2b2d0d576faaa09bcf0dce8f4e3905616619f7d8cb62e26623e75633a2",
+          "size": 31633794
+        },
+        "implication.cnf": {
+          "sha256": "687dea50c0b8e38331f5a66dff989b2c5351e7bc440df83f08dae7e0b6a72e26",
+          "size": 779689
+        },
+        "implication.pbp": {
+          "sha256": "e5cfd22c58e05325b9a4f750f6d48a63f71be06d5d7aeffe38d570cfadf2a652",
+          "size": 597141
+        }
+      }
+    },
+    {
+      "case_id": "case_257",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=150-density=0.1-instance=2.smt2",
+      "original_sha256": "8984f7f5b2b5935e9343a7e9a001840fd6a6b67045829d056a9c39a44c48c448",
+      "verified_status": "UNSAT",
+      "method": "graph_pb",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "f29568c86342716a133c74a695d5ae35555caceb93f0a0799f34179e2a3d1da1",
+          "size": 1432404
+        },
+        "colouring.cnf": {
+          "sha256": "929d42e9298ed8eb3700480c4c5b690703d64104d68057b03b2450e6b443ad96",
+          "size": 86665
+        },
+        "colouring.pbp": {
+          "sha256": "3a7a42260c05ef788521f573f386f79f5e58bec76e869cf017c6011233536cda",
+          "size": 33980709
+        },
+        "implication.cnf": {
+          "sha256": "b6f5c666938a390e08a679906971c3a52f7ce571b3bed05b52e7207e24df3aa4",
+          "size": 813420
+        },
+        "implication.pbp": {
+          "sha256": "bce745aea717fc01431efff339e13fe4e1369fb6e7da6be45a818a6bf4c2c573",
+          "size": 618722
+        }
+      }
+    },
+    {
+      "case_id": "case_258",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/GraphColouring/graph-colouring-nodes=150-density=0.1-instance=5.smt2",
+      "original_sha256": "34294ddcdb77fd32b141d278e1a2e78e7d617a7083097f0a06a89ab411dce068",
+      "verified_status": "UNSAT",
+      "method": "graph_pb",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "b563d8c86ebbf65d587ef40a7b4334381e703377bfdc2d6ae6b07a2c06d7f06d",
+          "size": 1362904
+        },
+        "colouring.cnf": {
+          "sha256": "daa85ed9b7df803f621254512aa1ed0b72978087520ce6b04bb18eac1f551a8d",
+          "size": 81532
+        },
+        "colouring.pbp": {
+          "sha256": "2913fdb4d5b37b129769d32d1cd5e59b139f3a850b4328dee3d844cadb1e1643",
+          "size": 92173067
+        },
+        "implication.cnf": {
+          "sha256": "f63de969d8a8f4da94d11be9558143e0715870f69ec39fe4495c6cf648a252d9",
+          "size": 769896
+        },
+        "implication.pbp": {
+          "sha256": "add5f185b735f7f698a91c56695ccf828554e2481b012a0f07ac6b6f26c916b5",
+          "size": 590656
+        }
+      }
+    },
+    {
+      "case_id": "case_263",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/KnightTour/knightTour.in07.smt2",
+      "original_sha256": "0840b5e813ef7848fd81cf08a089f7f80f13a0afc7f0a0cca14de59c531fd341",
+      "verified_status": "SAT",
+      "method": "ground_assignment",
+      "archive": "smtlib2025_additional_11_sat_models.tar.gz",
+      "files": {
+        "assignment.smt2": {
+          "sha256": "523bf0c16b32faf6fb338d34e9f1f13b5c4e1c69c51eef2170c14f1453e39d94",
+          "size": 2270740
+        },
+        "certificate.json": {
+          "sha256": "34c58ce2660138da87e73d228f70b235a088426fc3c0fd1e009502e215b569e8",
+          "size": 154
+        }
+      }
+    },
+    {
+      "case_id": "case_264",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/KnightTour/knightTour.in08.smt2",
+      "original_sha256": "c0d22e14bfe1a6aab10abf65aff957a782c62c3dd4c2a6a0fa46e01ae78bb234",
+      "verified_status": "SAT",
+      "method": "ground_assignment",
+      "archive": "smtlib2025_additional_11_sat_models.tar.gz",
+      "files": {
+        "assignment.smt2": {
+          "sha256": "4f429c9982fae8e25a13f2c85ba59809760731365b8377af3c6a3f30648f30cf",
+          "size": 4165943
+        },
+        "certificate.json": {
+          "sha256": "6ce96a8eab2bb5729fe12590d0674b38e667790be3e77ba5b6045e4e06cb71e5",
+          "size": 155
+        }
+      }
+    },
+    {
+      "case_id": "case_265",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/KnightTour/knightTour.in09.smt2",
+      "original_sha256": "f138749dd11d9d7fc4640422a97836729fa5c2f5ea7a6cc522ecd2252e81ab61",
+      "verified_status": "SAT",
+      "method": "ground_assignment",
+      "archive": "smtlib2025_additional_11_sat_models.tar.gz",
+      "files": {
+        "assignment.smt2": {
+          "sha256": "33980b7894e4a69559d8d64d234907c06415124cc3c4b80ea35381951faadf8c",
+          "size": 5575463
+        },
+        "certificate.json": {
+          "sha256": "7633532bd528c135e5b51202c398b44c701e52ef7409227024fa24581d87541f",
+          "size": 155
+        }
+      }
+    },
+    {
+      "case_id": "case_266",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/KnightTour/knightTour.in10.smt2",
+      "original_sha256": "1db5abf01a8887e8b80b3024a4a43a149c0389f0d56dd76d82d819594782922b",
+      "verified_status": "SAT",
+      "method": "ground_assignment",
+      "archive": "smtlib2025_additional_11_sat_models.tar.gz",
+      "files": {
+        "assignment.smt2": {
+          "sha256": "d26286fabcf41245ca70cfe471977b4b3460aa7a528031641de8840e5b4280dd",
+          "size": 6624730
+        },
+        "certificate.json": {
+          "sha256": "533cafbf63b6800e8c677bcce74e3984eb2d4757a34401306d7f88ef05104f2b",
+          "size": 155
+        }
+      }
+    },
+    {
+      "case_id": "case_267",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/Labyrinth/laby_19_19_17.lp.smt2",
+      "original_sha256": "eda868f625c0a1c512a49ee8b1bb724dade5ecfe69ae1f4cdd05644f87b36aec",
+      "verified_status": "SAT",
+      "method": "ground_assignment",
+      "archive": "smtlib2025_additional_11_sat_models.tar.gz",
+      "files": {
+        "assignment.smt2": {
+          "sha256": "d3924ad89e7bf4625dc5fce4945a38e44e5d588afe6371a6556a07242477f86d",
+          "size": 10267672
+        },
+        "certificate.json": {
+          "sha256": "4b1e5ccc3f6e95dba7d32329c6b20940b261f7b9af660063f9306b2798ba9920",
+          "size": 155
+        }
+      }
+    },
+    {
+      "case_id": "case_268",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/Labyrinth/laby_21_21_01.lp.smt2",
+      "original_sha256": "527db1eea6cf76b996686d7429786ce9dec25b202d2691b2aa21a09aeda32fe7",
+      "verified_status": "SAT",
+      "method": "ground_assignment",
+      "archive": "smtlib2025_additional_11_sat_models.tar.gz",
+      "files": {
+        "assignment.smt2": {
+          "sha256": "bce7f12fd7183a82217dcf9c637a8715d677f452c4391950a8e441c7da7664d6",
+          "size": 13597594
+        },
+        "certificate.json": {
+          "sha256": "2a79b0f2d1a85d5aa4c75377fd4437f72faefbd486fb8dd9a43ac3fe14e58f93",
+          "size": 155
+        }
+      }
+    },
+    {
+      "case_id": "case_269",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/Labyrinth/laby_21_21_16.lp.smt2",
+      "original_sha256": "a82f8400f8e4fc40d19a0bf48bd3afd145aaed13c6a1474a4a4e5b5251eb9f87",
+      "verified_status": "SAT",
+      "method": "ground_assignment",
+      "archive": "smtlib2025_additional_11_sat_models.tar.gz",
+      "files": {
+        "assignment.smt2": {
+          "sha256": "23a61dea60f5661d284a4c30d42ea620d2f1ede93cef89606691c203af3c2c2c",
+          "size": 13582885
+        },
+        "certificate.json": {
+          "sha256": "37d4aa3e78adaa61228e20e368057b51b696bee5650bb35bf72da10510f0ec4c",
+          "size": 155
+        }
+      }
+    },
+    {
+      "case_id": "case_270",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/Labyrinth/laby_22_22_13.lp.smt2",
+      "original_sha256": "16e5e6d4c0853cdf1b66199afb42e7d4966879fdbc69369deccdc8020659cef6",
+      "verified_status": "SAT",
+      "method": "ground_assignment",
+      "archive": "smtlib2025_additional_11_sat_models.tar.gz",
+      "files": {
+        "assignment.smt2": {
+          "sha256": "2f6e6f8ef6e31f7e173d19d95a513553e06918041c0bfe59e98c7f66b264a1ee",
+          "size": 15319147
+        },
+        "certificate.json": {
+          "sha256": "6e7aeb79413e6d0a4b2c832d21d8607dd1236531596f5bf00067f7a175085fdb",
+          "size": 155
+        }
+      }
+    },
+    {
+      "case_id": "case_271",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/Solitaire/solitaire-asymmetric-time=32.smt2",
+      "original_sha256": "a63c102bf264db8ab0d67783d7da7b7ecd5f180460557b46c024fbc6f4379c71",
+      "verified_status": "UNSAT",
+      "method": "peg_count",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "b783bc2fedb59435381eae0ad858d1e9e9f0c8ba1958dd76c16f7d21bc45d2f0",
+          "size": 302722
+        }
+      }
+    },
+    {
+      "case_id": "case_272",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/Solitaire/solitaire-center-time=32.smt2",
+      "original_sha256": "5fde13e188a13d83e5273bca8498252fbcecc9d9d253e932a9b2d853f7cba2bc",
+      "verified_status": "UNSAT",
+      "method": "peg_count",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "f5d36092fa1cc0ce0ba274b5acbaa09929bc0344328a829be1f2c06f1de2cfca",
+          "size": 302443
+        }
+      }
+    },
+    {
+      "case_id": "case_273",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/Solitaire/solitaire-edge-time=31.smt2",
+      "original_sha256": "cc8b4d90abdb77d8c8e82266dbdeefec28c89334eee41166be9a09472327b7ab",
+      "verified_status": "SAT",
+      "method": "ground_assignment",
+      "archive": "smtlib2025_additional_11_sat_models.tar.gz",
+      "files": {
+        "assignment.smt2": {
+          "sha256": "27e2ea30d9fe2a17f5bdb14f116f065d63d26d0b5d2bb2e63e5852df6e7e10f2",
+          "size": 683124
+        },
+        "certificate.json": {
+          "sha256": "a7d4d506b66fd18adea7df952abdde9ff0876e8ce36e720fdc6c0fafe760f543",
+          "size": 154
+        }
+      }
+    },
+    {
+      "case_id": "case_274",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/Solitaire/solitaire-edge-time=32.smt2",
+      "original_sha256": "ee235717e57b6428b3897bd0743d68655c55c9bfe28f2fb0f585c91e35d5e8b5",
+      "verified_status": "UNSAT",
+      "method": "peg_count",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "50400dc379564c75d103baa92a26a914f84d47a8cad0837189492914627bc038",
+          "size": 291534
+        }
+      }
+    },
+    {
+      "case_id": "case_298",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/WireRouting/wire.15.x.15.b.2.a.25_sat.data.smt2",
+      "original_sha256": "dc0bad276a61a10204c796ef5492b4b1558eed649c617c194bd37093641cc0ce",
+      "verified_status": "SAT",
+      "method": "ground_assignment",
+      "archive": "smtlib2025_additional_11_sat_models.tar.gz",
+      "files": {
+        "assignment.smt2": {
+          "sha256": "a108439b22484ac703a9cabd9e2fc5458c43eb1bf5fa5ea7e136ebd8367dbe67",
+          "size": 2907870
+        },
+        "certificate.json": {
+          "sha256": "5ca7cf3a6a0b01451913d44e1d13579794b6ab2a11e77cdb5f5eedc0dda5d036",
+          "size": 155
+        }
+      }
+    },
+    {
+      "case_id": "case_299",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/WireRouting/wire.16.x.16.b.10.a.20_unsat.data.smt2",
+      "original_sha256": "791ee505e9c8d879dbc84e106dc1c6eb61f3b2934697fb1c3c65fa3f9608c6db",
+      "verified_status": "UNSAT",
+      "method": "wire_degree_flow",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "09f9ecbc7eac54930b0b19273f4bfa02e5480c319ec914883aa7271a6505ffc9",
+          "size": 5662684
+        },
+        "degree.cnf": {
+          "sha256": "94890326b84fff82c86151499ec2eeaaef0583eb3773d13d6f6ea20d029a90e3",
+          "size": 534615
+        },
+        "flow.cnf": {
+          "sha256": "43274f1024e5763dd2f350d624ffadc2628eb603ca902be21602974b00605905",
+          "size": 1508120
+        },
+        "flow.pbp": {
+          "sha256": "2b92e3b4ca3725ca7ad1e5f68bc6b70b88c0d6b079ba1547e3aa94e725839f51",
+          "size": 1544176
+        }
+      }
+    },
+    {
+      "case_id": "case_300",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/asp/WireRouting/wire.16.x.16.b.5.a.25_sat.data.smt2",
+      "original_sha256": "52d70122c52dd049f1cae69e59ead4708bd323bb4827e8a4cc27db52e109aba3",
+      "verified_status": "SAT",
+      "method": "ground_assignment",
+      "archive": "smtlib2025_additional_11_sat_models.tar.gz",
+      "files": {
+        "assignment.smt2": {
+          "sha256": "1a0c71f337e5f27f9d1c8a3fc928123eb0eb4934838590be0534dde41f92b37c",
+          "size": 3644883
+        },
+        "certificate.json": {
+          "sha256": "7473bd4aaa4f360055a5f4b25ebdeab5377d6e982afc3d554a27c392b713cefc",
+          "size": 155
+        }
+      }
+    },
+    {
+      "case_id": "case_301",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/bcnscheduling/bcnscheduling140.smt2",
+      "original_sha256": "d783461326be70083d5e9f43bb3c09264debd2c9e63061ae2da610ee0d5813c8",
+      "verified_status": "UNSAT",
+      "method": "interval_closure",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "a1b9d249eab6552b2105617a0dd61b9571b92fa992090161603e0f567ea579f3",
+          "size": 29690
+        },
+        "closure.jsonl": {
+          "sha256": "954646607f6e5bc5281538b27524bdb585c190f9a7e38d11c1592d64242bd36a",
+          "size": 3649923
+        }
+      }
+    },
+    {
+      "case_id": "case_302",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/bcnscheduling/bcnscheduling141.smt2",
+      "original_sha256": "2054190812c61c1b350673d9a8030b30610329d93fb378c93c3ec05304fc55f7",
+      "verified_status": "UNSAT",
+      "method": "interval_closure",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "0557b81c3ab9e91cc8f383d48a1ec7a594c57badbf9db5ae9cfa01c1b0697551",
+          "size": 29690
+        },
+        "closure.jsonl": {
+          "sha256": "cf81bf04846cfceba22ed47f2a63b3c89aa5d2066e372f29a87d41152d821cf2",
+          "size": 7504994
+        }
+      }
+    },
+    {
+      "case_id": "case_305",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/job_shop/jobshop20-2-10-10-2-4-9.smt2",
+      "original_sha256": "cdf29494f57c49c5547e5fd1269e1b1248a2912a4c506cd4277dd7af662bb6ff",
+      "verified_status": "UNSAT",
+      "method": "jobshop_capacity",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "c6414c78abea974e95b409215cba070bfabb95044cb0c1c611547e1f0cbc0f30",
+          "size": 33280
+        }
+      }
+    },
+    {
+      "case_id": "case_309",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/job_shop/jobshop24-2-12-12-2-4-9.smt2",
+      "original_sha256": "331380596cf85e0e4887738be362896a62ab5f7f1d4c4474d1233a97e392d49c",
+      "verified_status": "UNSAT",
+      "method": "jobshop_capacity",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "bede707f3ac4aa5d829bee861c34f6f3446742a3d924d7bcc43b44535ff2ea9a",
+          "size": 45708
+        }
+      }
+    },
+    {
+      "case_id": "case_317",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/job_shop/jobshop36-2-18-18-2-4-9.smt2",
+      "original_sha256": "6619a394a3767e09d2e88db531c9eddce00223828b73b39f513f4b6d1064395b",
+      "verified_status": "UNSAT",
+      "method": "jobshop_capacity",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "8f677b119f91c62e9a33007e3bcb35b2ae601c81ba797938b80b61e6da5f775e",
+          "size": 95360
+        }
+      }
+    },
+    {
+      "case_id": "case_321",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/job_shop/jobshop42-2-21-21-2-4-9.smt2",
+      "original_sha256": "d787a158d12be755b8853a3917833f1a2ae68345e5db784fc0a78b73e8445dd8",
+      "verified_status": "UNSAT",
+      "method": "jobshop_capacity",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "b41718f9dcee6008fd57e1bf46f8af7b06e1d2b8779f06a0d2af31de34b5e716",
+          "size": 126974
+        }
+      }
+    },
+    {
+      "case_id": "case_323",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/job_shop/jobshop44-2-22-22-2-4-9.smt2",
+      "original_sha256": "1108740c318fad25ece0947a7c6accdb90cf0fe84381da8749a02106aa5ff343",
+      "verified_status": "UNSAT",
+      "method": "jobshop_capacity",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "34b6dd6b274a2ccde4a43509e9805d772b683b82d289c8cd4a24fd5688c48529",
+          "size": 138504
+        }
+      }
+    },
+    {
+      "case_id": "case_329",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/job_shop/jobshop52-2-26-26-2-4-9.smt2",
+      "original_sha256": "af2e6e8e3e90ae79e55ab97a1c8a0c28bd85590d496d099372d2dd72f116edf7",
+      "verified_status": "UNSAT",
+      "method": "jobshop_capacity",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "36cd7d814ff03db2b8ca35ee1591f610eab0d1761b6a0f6a14174aa259d1b5ea",
+          "size": 189792
+        }
+      }
+    },
+    {
+      "case_id": "case_331",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/job_shop/jobshop54-2-27-27-2-4-9.smt2",
+      "original_sha256": "79e6dfdb389ee1a80e83b633710925feb3fff01bbf2f5575728f714537133793",
+      "verified_status": "UNSAT",
+      "method": "jobshop_capacity",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "10dea64e94160b3133243aae037974416f0e71f36a2497f473314ab7327e3fba",
+          "size": 204026
+        }
+      }
+    },
+    {
+      "case_id": "case_334",
+      "logic": "QF_IDL",
+      "benchmark_path": "non-incremental/QF_IDL/job_shop/jobshop58-2-29-29-2-4-9.smt2",
+      "original_sha256": "db492a64178acc04bfe17dd63126b64f008ee464301d85b0f1abab69c826907a",
+      "verified_status": "UNSAT",
+      "method": "jobshop_capacity",
+      "archive": "smtlib2025_additional_29_structural_proofs.tar.gz",
+      "files": {
+        "certificate.json": {
+          "sha256": "da63839c4e7a0a1e3017b5fc350570c62ec2324729cb231651c201a28d19de28",
+          "size": 234030
+        }
+      }
+    }
+  ]
+}
